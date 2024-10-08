@@ -8,7 +8,7 @@
  * @property {string} demoURL Url de una pagina de demostración
  * @property {string} repoURL Url del repositorio, ej: https://github.com/usuario/repo
  * @property {string} anim La animación que se ejecutará cuando se cargue la tarjeta, ej: fade-up, fade-right, fade-left, fade-down
- * @property {number} averageBrightness Cuanto brillo tendrá el color de fondo de la tarjeta, ej: 0.1
+ * @property {number} averageBrightness Cuanto brillo tendrá el color de fondo de la tarjeta, ej: 0.1import myImage
  */
 
 /**
@@ -18,61 +18,40 @@
 export const portafolioData = [
 	{
 		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
-		title: 'Restaurant',
-		skills: ['React', 'StyledComponents'],
+		title: 'Centro Espírita',
+		skills: ['Astro', 'StyledComponents'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'Landing page do Centro Espírita Luz, Amor e Caridade',
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: 'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/299377097/original/7eb7dcebe244fcf5ad75d92b0969fc116946bd57/create-professional-amd-responsive-wordpress-website.jpg',
-		title: 'E-commerce',
-		skills: ['JavaScript', 'Bootstrap'],
+		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
+		title: 'Barbearia',
+		skills: ['Astro', 'PY', 'DJANGO', 'MONGO'],
 		descripcion:
-			' Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'Landing page da Barbearia Garagem 247, com funcionalidades como agendamento',
 		demoURL: '',
 		repoURL: '',
-		anim: 'fade-up',
-		averageBrightness: 0.1,
-	},
-	{
-		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
-		title: 'Coffe Store',
-		skills: ['React', 'CSS'],
-		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
-		anim: 'fade-left',
-	},
-	{
-		imgSrc: 'https://www.corse.mx/cdn/shop/files/tienda_lenceria-lenceria-hot_sale-ofertas-mexico-lenceria_seyx-encaje-corse_mx-corse_lenceria_1200_x_560_px_13.png?v=1712270274&width=1500',
-		title: 'Coffe Store',
-		skills: ['React', 'CSS'],
-		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
-		anim: 'fade-left',
-	},
-	{
-		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
-		title: 'Coffe Store',
-		skills: ['React', 'CSS'],
-		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
-		anim: 'fade-left',
+		anim: 'fade-right',
 	},
 	{
 		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
-		title: 'Restaurant',
-		skills: ['React', 'StyledComponents'],
+		title: 'API',
+		skills: ['PY', 'AWS', 'FAST', 'MONGO'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'API de comida para um projeto de cardápio semanal da faculdade',
+		demoURL: '',
+		repoURL: '',
+		anim: 'fade-right',
+	},
+	{
+		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
+		title: 'API',
+		skills: ['SPARK', 'AIRFLOW'],
+		descripcion:
+			'Pipeline de Dados com Airflow',
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-right',
@@ -88,6 +67,14 @@ const skillIcons = {
 	StyledComponents: 'skill-icons:styledcomponents',
 	Bootstrap: 'skill-icons:bootstrap',
 	Tailwind: 'skill-icons:tailwindcss-dark',
+	AWS: 'skill-icons:aws-dark',
+	FAST: 'skill-icons:fastapi',
+	PY: 'skill-icons:python-light',
+	DJANGO: 'skill-icons:django',
+	API: 'skill-icons:fastapi',
+	MONGO: 'skill-icons:mongodb',
+	AIRFLOW: 'skill-icons:airlfow',
+	SPARK: 'skill-icons:spark'
 };
 
 /**
@@ -100,5 +87,6 @@ export const getPortafolioData = portafolioData.map((item) => {
 		...item,
 		// Se cambian las skills por los iconos correspondientes
 		skills: item.skills.map((skill) => skillIcons[skill]),
+		
 	};
 });

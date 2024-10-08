@@ -1,154 +1,41 @@
 ---
-title: "JavaScript:Tutorial Menú Hamburguesa"
+title: " Nível de Disclosure Ambiental das empresas do ISE (Índice de Sustentabilidade Empresarial) : Uma análise dos últimos 5 anos"
 description: "Soy un post reciente"
-pubDate: 'Apr 30 2024'
-heroImage: "../img/monachina2.jpg"
+pubDate: 'Aug 30 2019'
+heroImage: "../img/pesquisa2.png"
 ---
+### XX Engema - FEA USP 
+#### Link Artigo: <a>https://engemausp.submissao.com.br/20/anais/arquivos/396.pdf<a/>
 
-## JavaScript: Explorando Funciones y Comprendiendo Variables
+![javascript image](/img/pesquisa2.jpg)
 
-![javascript image](/img/monachina2.jpg)
+### O ISE (Índice de Sustentabilidade Empresarial), um dos primeiros índices usados na América Latina para medir desempenho sustentável das corporações, fora criado em 2005, pela BM&FBovespa (Bolsa de Valores, Mercadorias e Futuros de São Paulo). 
 
-En esta segunda entrega de nuestra guía práctica de JavaScript, nos sumergiremos en el fascinante mundo de las funciones y exploraremos las sutilezas entre `var`, `let` y `const`. Prepárate para desentrañar estos conceptos cruciales en tu viaje por el desarrollo web.
+<p> O Brasil merece destaque por ter sido o quarto país no mundo, 
+sendo o primeiro na América Latina, a lançar o ISE. (MELLO et al. 2016). 
+Para os investidores estarem entre os escolhidos da carteira do ISE, significa que a 
+corporação carrega consigo a preocupação com problemas socioambientais, caracterizando-a 
+como uma empresa sustentável e de confiança. Nesse sentido, ao acompanhar o desempenho 
+das empresas comprometidas com a sustentabilidade </p>
 
-## Funciones en JavaScript
+#### Esta pesquisa busca analisar se as empresas do ISE estão divulgando suas informações ambientais conforme a NBC T 15, com base em relatórios de 2015 a 2018. O objetivo foi verificar como as empresas estão se adaptando ao desenvolvimento sustentável e às normas brasileiras de divulgação ambiental.
 
-Las funciones son bloques de código reutilizables que realizan una tarea específica. Crear una función implica dos pasos fundamentales: la declaración y la ejecución.
+## Resultados da Pesquisa
 
-### Declaración de Funciones
+<p>Um ponto que ficou explícito como mostra a Tabela 2 a seguir é de que as empresas 
+que mais agridem o meio ambiente, como por exemplo o setor energético, são as que mais 
+promovem meios de recuperar o ecossistema, e evidenciam corretamente tais esforços.</p>
 
-```javascript
-function saludar(nombre) {
-  console.log(`¡Hola, ${nombre}!`);
-}
-```
+<img src='/img/pesquisa1.png'>
 
-Aquí, `saludar` es el nombre de la función, y `(nombre)` son los parámetros que puede aceptar.
 
-### Ejecución de Funciones
+ ### O texto a seguir apresenta a Tabela 3, que lista as empresas do ISE em ordem alfabética, com suas pontuações e o nível de disclosure (divulgação) de informações, baseado em suas DFPs (Demonstrações Financeiras Padronizadas) ou Relatórios de Sustentabilidade Anual (RSA). O texto destaca que, embora as empresas se esforcem para divulgar relatórios de sustentabilidade, há uma discrepância nas DFPs, pois a norma não exige a divulgação formal de informações ambientais, o que limita a pesquisa.
 
-```javascript
-saludar("Juan");
-// Salida: ¡Hola, Juan!
-```
 
-Al llamar a la función `saludar` con el argumento `"Juan"`, ejecutamos el código dentro de la función y obtenemos la salida esperada.
+<img src='/img/pesquisa3.png'>
 
-### Tipos de Funciones
+## Conclusão
 
-#### Funciones con Valor de Retorno
+ #### Os resultados mostram que ainda não é possível afirmar com certeza que as empresas seguem a NBC T 15, pois a norma é limitada e não aborda detalhadamente questões ambientais. Muitas empresas utilizam padrões internacionais para divulgar suas informações.
 
-```javascript
-function sumar(a, b) {
-  return a + b;
-}
-
-let resultado = sumar(3, 5);
-// resultado: 8
-```
-
-#### Funciones Anónimas
-
-```javascript
-let saludar = function(nombre) {
-  console.log(`¡Hola, ${nombre}!`);
-};
-
-saludar("Ana");
-// Salida: ¡Hola, Ana!
-```
-
-#### Arrow Functions
-
-```javascript
-let multiplicar = (a, b) => a * b;
-
-let producto = multiplicar(4, 6);
-// producto: 24
-```
-
-Las funciones de flecha (`arrow functions`) son una forma más concisa de escribir funciones.
-
-## Variables: var, let y const
-
-### `var`
-
-```javascript
-function ejemploVar() {
-  if (true) {
-    var x = 10;
-  }
-  console.log(x);
-}
-
-ejemploVar();
-// Salida: 10
-```
-
-`var` tiene un ámbito de función, lo que significa que su declaración se eleva al nivel superior de su contexto de ejecución.
-
-### `let`
-
-```javascript
-function ejemploLet() {
-  if (true) {
-    let y = 20;
-  }
-  console.log(y); // ¡Error!
-}
-
-ejemploLet();
-```
-
-`let` tiene un ámbito de bloque, lo que significa que está limitado al bloque de código más cercano.
-
-### `const`
-
-```javascript
-function ejemploConst() {
-  const PI = 3.14;
-  console.log(PI);
-}
-
-ejemploConst();
-// Salida: 3.14
-```
-
-En este ejemplo, `const` se utiliza para declarar una constante `PI` y se le asigna el valor de `3.14`. Aunque es posible asignar un valor a `const` solo una vez, ten en cuenta que esto no impide que el contenido del objeto al que se refiere cambie si es un objeto mutable.
-
-## Scope en JavaScript
-
-El scope se refiere a la accesibilidad y visibilidad de las variables en diferentes partes del código.
-
-### Scope Global
-
-```javascript
-let globalVar = "Soy global";
-
-function ejemploScopeGlobal() {
-  console.log(globalVar);
-}
-
-ejemploScopeGlobal();
-// Salida: Soy global
-```
-
-### Scope Local
-
-```javascript
-function ejemploScopeLocal() {
-  let localVar = "Soy local";
-  console.log(localVar);
-}
-
-ejemploScopeLocal();
-// Salida: Soy local
-
-console.log(localVar); // ¡Error!
-```
-
-Las variables declaradas con `let` y `const` tienen un ámbito de bloque, limitando su accesibilidad al bloque en el que se declaran.
-
-## Conclusión
-
-En esta parte de nuestra guía de JavaScript, hemos explorado cómo crear y ejecutar funciones, así como las diferencias entre `var`, `let` y `const`. Entender estos conceptos es esencial para construir aplicaciones sólidas y comprender cómo las variables afectan el flujo y la estructura de tu código. En la próxima entrega, nos sumergiremos en conceptos más avanzados y te llevaremos a través de ejercicios prácticos para consolidar tus conocimientos. ¡Sigue explorando y desbloquea el potencial de JavaScript en tus proyectos web! 🚀✨
+#### Apesar dessas limitações, empresas do setor energético se destacam por melhorar seu disclosure ambiental mais do que outros setores. Uma nova pesquisa poderia usar normas internacionais, que são mais abrangentes em questões ambientais. A falta de uniformidade foi mais evidente em empresas de setores fora do energético. 🚀✨

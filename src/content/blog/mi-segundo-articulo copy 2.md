@@ -1,16 +1,16 @@
 ---
-title: "JavaScript:Funciones y ambito de las variables"
-description: "Funciones y Comprendiendo Variables"
-pubDate: 'Apr 14 2024'
-updatedDate: 'Apr 24 2024'
-heroImage: "../img/girl1.jpg"
+title: "Python - Preparando ambiente para um projeto"
+description: "Infraestrutura Python para Projetos"
+pubDate: 'Oct 08 2024'
+updatedDate: 'Oct 08 2024'
+heroImage: "../img/python.jpg"
 ---
 
-## JavaScript: Explorando Funciones y Comprendiendo Variables
+## Python: Preparando a infraestrutura
 
-![javascript image](/img/monachina2.jpg)
+![javascript image](/img/python.jpg)
 
-En esta segunda entrega de nuestra guía práctica de JavaScript, nos sumergiremos en el fascinante mundo de las funciones y exploraremos las sutilezas entre `var`, `let` y `const`. Prepárate para desentrañar estos conceptos cruciales en tu viaje por el desarrollo web.
+Vamos juntos descobrir como montar uma infraestrutura legal para começar um projeto Python:
 
 ## Funciones en JavaScript
 
