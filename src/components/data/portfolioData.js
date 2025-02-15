@@ -27,7 +27,7 @@ export const portafolioData = [
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
+		imgSrc: '/img/garagem274.jpg',
 		title: 'Barbearia',
 		skills: ['Astro', 'PY', 'DJANGO', 'MONGO'],
 		descripcion:
@@ -37,17 +37,17 @@ export const portafolioData = [
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
+		imgSrc: '/img/API-estela.png',
 		title: 'API',
 		skills: ['PY', 'AWS', 'FAST', 'MONGO'],
 		descripcion:
 			'API de comida para um projeto de cardápio semanal da faculdade',
-		demoURL: '',
-		repoURL: '',
-		anim: 'fade-right',
+		demoURL: 'https://github.com/estelaoliveiradev/fastAPI-foods',
+		repoURL: 'https://github.com/estelaoliveiradev/fastAPI-foods',
+		anim: 'fade-right'
 	},
 	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
+		imgSrc: '/img/python.jpg',
 		title: 'API',
 		skills: ['SPARK', 'AIRFLOW'],
 		descripcion:
