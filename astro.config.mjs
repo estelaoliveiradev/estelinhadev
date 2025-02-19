@@ -7,11 +7,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://estelaoliveiradev.github.io',
-  base: '/estelaoliveiradevsite',
-  devToolbar: {
-    enabled: false
-  },
+  site: 'https://estelaoliveira.dev',
   integrations: [react(), tailwind(), sitemap()]
 });
 
