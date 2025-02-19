@@ -5,6 +5,8 @@ on:
   # Usando um nome de branch diferente? Modifique `main` para o nome da sua branch
   push:
     branches: [main]
+    paths-ignore:
+    - README.md
 # Permite que esse workflow seja executado manualmente da aba "Actions" no GitHub.
   workflow_dispatch:
 
@@ -23,17 +25,21 @@ jobs:
       - name: Install, build, and upload your site
         uses: withastro/action@v1
         with:
-           path: /estelaoliveiradevsite 
+          show-progress: false
            # node-version: 18 # A versão específica do Node que deve ser utilizada para a build do seu site. A versão padrão é a 18. (opcional)
            # package-manager: pnpm@latest # O gerenciador de pacotes usado para instalar as dependências e fazer a build do site. É automaticamente detectado a partir da sua lockfile. (opcional)
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+      deploy:
+      name: Deploy
+      needs: build
+      runs-on: ubuntu-latest
+      permissions:
+        pages: write
+        id-token: write
+      environment:
+        name: github-pages
+        url: ${{ steps.deployment.outputs.page_url }}
+      steps:
+        - name: Deploy to GitHub Pages
+          id: deployment
+          uses: actions/deploy-pages@v2
