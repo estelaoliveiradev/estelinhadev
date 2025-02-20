@@ -8,8 +8,7 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://estelaoliveira.dev',
-  sitemap: true,
-  robots: true,
+ 
   
   integrations: [react(), tailwind(), sitemap()]
 });
