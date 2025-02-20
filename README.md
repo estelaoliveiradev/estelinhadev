@@ -3,4 +3,4 @@
 
 ## Estela de Oliveira
 
-### Engenheira de Dados
+### Engenheira de Dados - Learning
