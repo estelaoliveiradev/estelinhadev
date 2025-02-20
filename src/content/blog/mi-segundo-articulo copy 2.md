@@ -3,12 +3,12 @@ title: "Python - Preparando ambiente para um projeto"
 description: "Infraestrutura Python para Projetos"
 pubDate: 'Oct 08 2024'
 updatedDate: 'Oct 08 2024'
-heroImage: "../img/python.jpg"
+heroImage: "../estelaoliveiradevsite.github.io/img/python.jpg"
 ---
 
 ## Python: Preparando a infraestrutura
 
-![javascript image](/img/python.jpg)
+![javascript image](/estelaoliveiradevsite.github.io/img/python.jpg)
 
 Vamos juntos descobrir como montar uma infraestrutura legal para começar um projeto Python:
 
