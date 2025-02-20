@@ -27,7 +27,7 @@ export const portafolioData = [
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: '/img/garagem274.jpg',
+		imgSrc: '/estelaoliveiradevsite.github.io/img/garagem274.jpg',
 		title: 'Barbearia',
 		skills: ['Astro', 'PY', 'DJANGO', 'MONGO'],
 		descripcion:
@@ -37,7 +37,7 @@ export const portafolioData = [
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: 'https://github.com/estelaoliveiradev/estela-icons-img/blob/main/API-estela.png',
+		imgSrc: '/estelaoliveiradevsite.github.io/img/API-estela.png',
 		title: 'API',
 		skills: ['PY', 'AWS', 'FAST', 'MONGO'],
 		descripcion:
@@ -47,7 +47,7 @@ export const portafolioData = [
 		anim: 'fade-right'
 	},
 	{
-		imgSrc: '/img/python.jpg',
+		imgSrc: '/estelaoliveiradevsite.github.io/img/python.jpg',
 		title: 'API',
 		skills: ['SPARK', 'AIRFLOW'],
 		descripcion:
