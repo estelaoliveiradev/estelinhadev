@@ -37,7 +37,7 @@ export const portafolioData = [
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: '/img/API-estela.png',
+		imgSrc: 'https://github.com/estelaoliveiradev/estela-icons-img/blob/main/API-estela.png',
 		title: 'API',
 		skills: ['PY', 'AWS', 'FAST', 'MONGO'],
 		descripcion:
