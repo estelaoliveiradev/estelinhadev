@@ -10,6 +10,7 @@ export default defineConfig({
   site: 'https://estelaoliveira.dev',
   sitemap: true,
   robots: true,
+  
   integrations: [react(), tailwind(), sitemap()]
 });
 
