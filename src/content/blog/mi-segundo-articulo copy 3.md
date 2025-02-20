@@ -2,12 +2,12 @@
 title: " Nível de Disclosure Ambiental das empresas do ISE (Índice de Sustentabilidade Empresarial) : Uma análise dos últimos 5 anos"
 description: "Soy un post reciente"
 pubDate: 'Aug 30 2019'
-heroImage: "../estelaoliveiradevsite.github.io/img/pesquisa2.png"
+heroImage: "../estelinhadev/img/pesquisa2.png"
 ---
 ### XX Engema - FEA USP 
 #### Link Artigo: <a>https://engemausp.submissao.com.br/20/anais/arquivos/396.pdf<a/>
 
-![javascript image](/estelaoliveiradevsite.github.io/img/pesquisa2.jpg)
+![javascript image](/estelinhadev/img/pesquisa2.jpg)
 
 ### O ISE (Índice de Sustentabilidade Empresarial), um dos primeiros índices usados na América Latina para medir desempenho sustentável das corporações, fora criado em 2005, pela BM&FBovespa (Bolsa de Valores, Mercadorias e Futuros de São Paulo). 
 
@@ -26,13 +26,13 @@ das empresas comprometidas com a sustentabilidade </p>
 que mais agridem o meio ambiente, como por exemplo o setor energético, são as que mais 
 promovem meios de recuperar o ecossistema, e evidenciam corretamente tais esforços.</p>
 
-<img src='/estelaoliveiradevsite.github.io/img/pesquisa1.png'>
+<img src='/estelinhadev/img/pesquisa1.png'>
 
 
  ### O texto a seguir apresenta a Tabela 3, que lista as empresas do ISE em ordem alfabética, com suas pontuações e o nível de disclosure (divulgação) de informações, baseado em suas DFPs (Demonstrações Financeiras Padronizadas) ou Relatórios de Sustentabilidade Anual (RSA). O texto destaca que, embora as empresas se esforcem para divulgar relatórios de sustentabilidade, há uma discrepância nas DFPs, pois a norma não exige a divulgação formal de informações ambientais, o que limita a pesquisa.
 
 
-<img src='/estelaoliveiradevsite.github.io/img/pesquisa3.png'>
+<img src='/estelinhadev/img/pesquisa3.png'>
 
 ## Conclusão
 
