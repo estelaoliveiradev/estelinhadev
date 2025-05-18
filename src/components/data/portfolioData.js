@@ -1,5 +1,5 @@
 /**
- * @SofiDev Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
+ * @estela Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
  * @typedef PortafolioData
  * @property {string} imgSrc Url de la imagen
  * @property {string} title Titulo de la tarjeta
@@ -12,7 +12,7 @@
  */
 
 /**
- * @SofiDev Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
+ * @estela Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
  * @type {PortafolioData[]}
  */
 export const portafolioData = [

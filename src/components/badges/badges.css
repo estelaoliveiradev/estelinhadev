@@ -1,0 +1,33 @@
+#badges {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+    max-width: calc(var(--max-width) + 2.2rem);
+    padding: 3rem;
+    gap: 1.5rem;
+    margin: 4rem auto;
+    text-align: center;
+}
+
+#badges .badges-grid {
+    display: grid;
+    /* Define explicitamente 2 colunas com tamanhos iguais (1fr) */
+    grid-template-columns: repeat(5, 1fr);
+    /* Opcional: você pode definir alturas fixas ou deixar como auto */
+    /* grid-template-rows: auto auto; */
+    gap: 1rem; /* Espaçamento entre os badges */
+}
+
+#badges .badges-grid a {
+    display: block; /* Faz com que o link ocupe toda a célula do grid */
+    width: 100%;
+    height: 100%;
+}
+
+#badges .badges-grid img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    /* Opcional: para centralizar as imagens dentro de suas células */
+    /* margin: 0 auto; */
+}
