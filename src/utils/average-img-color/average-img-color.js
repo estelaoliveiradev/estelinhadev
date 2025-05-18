@@ -1,5 +1,5 @@
 /**
- * @SofiDev Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
+ * @estela Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
  * @param {HTMLImageElement}img una imagen del dom, de ella se obtendrá su color promedio
  * @param {number} brightness Que tanto brillo debe de tener el resultado del color
  * @param {()=>void} onerror
