@@ -8,7 +8,7 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://estelaoliveira.dev',
-  base: '',
+  base: '/estelinhadev',
  
   
   integrations: [react(), tailwind(), sitemap()]
